@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+
+    <!-- Daisy UI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Manrope font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                drisso: 'red'
+              },
+              fonts: {
+                manrope: '["Manrope", sans-serif]',
+              }
+            }
+          }
+        }
+      </script>
+
+</head>
+<body>
+
+    <header class="container mx-auto my-7 overflow-hidden">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <a class="btn btn-ghost text-3xl font-[manrope] font-extrabold"><span><i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-2 rounded-full"></i></span>Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 ">
+                <li class="text-[16px] font-extrabold font-[manrope]"><a>Home</a></li>
+                <li class="text-[16px] font-[manrope]"><a>Services</a></li>
+                <li class="text-[16px] font-[manrope]"><a>Portfolio</a></li>
+                <li class="text-[16px] font-[manrope]"><a>Blogs</a></li>
+                <li class="text-[16px] font-[manrope]"><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <div class="lg:mr-5 lg:space-x-3">
+                    <a href=""><i class="fa-solid fa-magnifying-glass hidden lg:contents text-2xl"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping hidden lg:contents text-2xl"></i></a>
+                </div>
+                <div class="hidden lg:contents">
+                    <a class="btn bg-[#ABEF5F] font-[manrope] text-xl font-extrabold rounded-3xl">Book Consult <span><i class="fa-solid fa-arrow-right -rotate-45 text-[#FFFFFF] bg-black p-2 rounded-full"></i></span></a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                  </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow ">
+                    <li class="text-[16px] font-extrabold font-[manrope]"><a>Home</a></li>
+                    <li class="text-[16px] font-[manrope]"><a>Services</a></li>
+                    <li class="text-[16px] font-[manrope]"><a>Portfolio</a></li>
+                    <li class="text-[16px] font-[manrope]"><a>Blogs</a></li>
+                    <li class="text-[16px] font-[manrope]"><a>Contact Us</a></li>
+                </ul>
+              </div>
+          </div>
+    </header>
+
+    <main>
+        <section class="banner lg:container lg:mx-auto text-center overflow-hidden">
+            <img src="./B10-Assignment-03/assets/banner.png" alt="" class="md:mx-auto">
+            <h1 class="lg:text-6xl text-4xl font-extrabold font-[manrope] py-5 overflow-hidden px-5">A barn house of this design has a striking appearance</h1>
+            <p class="font-[manrope] text-[16px] text-[#494949] py-5 lg:w-[972px] lg:mx-auto overflow-hidden px-5">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            <div class="py-5">
+                <a class="btn bg-[#ABEF5F80] font-[manrope] text-xl font-extrabold rounded-3xl">View Details <span><i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F] p-2 rounded-full"></i></span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
